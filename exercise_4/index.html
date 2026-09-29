@@ -1,0 +1,46 @@
+<!DOCTYPE html><!--document type declaration-->
+<html>
+    <head><!-- a container for metadata -->
+        <meta charset="utf-8"><!--charset: character encoding capable of encoding all characters on the web  -->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><!--for browser compatibility: choose rendering engine to view the page in an correct view (for old ver. IE)  -->
+        <title>Big Test</title><!--declaring the title, or name, of the HTML document. displayed in the browser's title bar-->
+        <meta name="description" content=""><!--keywords/snippet for search engines-->
+        <meta name="viewport" content="width=device-width"><!--the browser will (probably) render the width of the page at the width of its own screen -->
+        <link rel="stylesheet" href="style.css">
+        <style>
+       * {
+        box-sizing: border-box;
+       }
+       .parent {
+border: solid 6px blue;
+width: 300px;
+height: 500px;
+       }  
+       .child {
+        height: 20px;
+        background-color:red;
+        width: 300px;
+        margin-bottom: 30px;
+
+       } 
+       .vertical {
+        position: absolute;
+        background-color: green;
+        width:20px;
+        height: 300px;
+       }
+       .no-margin {
+        margin-bottom: 0;
+       }
+       .parent:last-child {
+        
+       }
+</style>
+    </head>
+    <body>
+        <div class="parent">
+        <div class="child vertical"></div>
+        <div class="child"></div>
+        <div class="child"></div>
+        <div class="child"></div>
+    </body>
