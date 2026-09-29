@@ -1,0 +1,55 @@
+h1 {
+    font-family:'Redaction',monospace;
+    font-size:48px;
+    color:darkred;
+    line-height:32px;
+}
+h2 {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:28px;
+    font-weight:bold;
+    color:rgb(77, 77, 77);
+    line-height:28px;
+}
+p {
+font-family:Arial, Helvetica, sans-serif;
+font-size:21px;
+color:rgb(81, 81, 81);
+line-height:24px;
+}
+a {
+    font-family:Arial, Helvetica, sans-serif;
+font-size:21px;
+color:rgb(37, 10, 142);
+line-height:24px;
+}
+
+@font-face {
+    font-family: 'Redaction';
+    src: url('/Users/juanleonard/Downloads/Windows XP High Resolution Icon Pack/Whistler Icons/projects/jleona02-ux.github.io-main/fonts/redaction/Redaction_35-Bold.woff2') format('.woff2')
+}
+.flex-container {
+    display: flex;
+flex-direction: column;
+align-items:center;
+text-align: center;
+column-gap:20px;
+padding-left:20%;
+padding-right:20%;
+}
+.image-row {
+  display: flex;            
+  justify-content: center;   
+  gap:15px;          
+}
+
+.image-row img {
+  width: 100%;           
+  height: auto;             
+}
+body {
+  cursor: url('/Users/juanleonard/Downloads/Windows XP High Resolution Icon Pack/Whistler Icons/projects/jleona02-ux.github.io-main/image/8ball.png'), auto;
+}
+a:hover {
+    cursor: url('/Users/juanleonard/Downloads/Windows XP High Resolution Icon Pack/Whistler Icons/projects/jleona02-ux.github.io-main/image/shromp.png'), pointer;
+}
