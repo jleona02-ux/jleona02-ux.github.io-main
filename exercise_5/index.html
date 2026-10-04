@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" href="style.css">
+        <style>
+           body {
+             background-image: linear-gradient(to top, orange, pink);
+            background-repeat: no-repeat; 
+            background-position: center; 
+            background-size: cover; 
+            background-attachment: fixed; }
+            .center {
+                 display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+            }
+
+            .parallelogram {
+	width: 400px;
+	height: 200px;
+	transform: skew(45deg);
+	background: white;
+
+    transition-property: background-color;
+    transition-duration: 800ms;
+    transition-timing-function: ease-in-out;
+    transition-delay: 300ms;
+    }
+    .parallelogram:hover {
+        background-color: black;
+        cursor:pointer;
+        scale:50%;
+        transform: translate(30px,-20px);
+        transition-timing-function: ease-in-out;
+        transition-delay: 300ms;
+        
+    }
+</style>
+ <body>
+<div class="center">
+    <div class="parallelogram"></div>
+</div>
+<div class="center">
+    <div class="parallelogram"></div>
+</div>
+<div class="center">
+    <div class="parallelogram"></div>
+</div>
+ </body>
+    </head>

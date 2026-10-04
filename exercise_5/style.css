@@ -1,0 +1,13 @@
+
+    .parallelogram {
+      width: 300px;
+      height: 100px;
+      transform: skew(20deg);
+      background: white;
+      margin-bottom: 50px;
+    }
+    p {
+        font-family:fantasy;
+        font-size:100px;
+        color:white;
+    }

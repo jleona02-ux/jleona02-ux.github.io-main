@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" href="style.css">
+        <style>
+           body {
+             background-image: linear-gradient(to top, orange, pink);
+            background-repeat: no-repeat; 
+            background-position: center; 
+            background-size: cover; 
+            background-attachment: fixed; }
+            .center {
+                 display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+            }
+
+            .parallelogram {
+	width: 400px;
+	height: 200px;
+	transform: skew(45deg);
+	background: white;
+    animation: shapeSkew 4s linear infinite alternate;
+    }
+    @keyframes shapeSkew {
+0% {
+    background: black;
+    transform: translateY(0);
+}
+25% {
+    background:blue;
+    transform: translateY(400px) skewX(-40deg);
+}
+50% {
+    background:green;
+    transform: translateY(-400px) skewX(40deg);
+}
+75% {
+    background:red;
+    transform: translateY(800px) skewX(80deg);
+}
+100% {
+    background:fuchsia;
+    transform: translateY(200px) skewX(20deg);
+}
+    }
+</style>
+ <body>
+<div class="center">
+    <div class="parallelogram">
+        <p>i like</p>
+    </div>
+</div>
+<div class="center">
+    <div class="parallelogram">
+        <p>risd gd</p>
+    </div>
+</div>
+<div class="center">
+    <div class="parallelogram">
+        <p>nice </p>
+    </div>
+</div>
+ </body>
+    </head>
