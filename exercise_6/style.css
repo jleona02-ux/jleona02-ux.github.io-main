@@ -1,0 +1,113 @@
+.controls{
+	text-align: center;
+	margin-top: 10rem;
+  font-size:24px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.elementcontainer {
+	height: 40vh;
+	display: flex;
+  	align-items: center;
+  	align-content: center;
+  	justify-content: center;
+}
+#btn {
+  font-size:100px;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+ background-image:url(pictures/ohyes.png);
+ padding: 20px 20px;
+  border-radius: 10px;
+}
+#btn:hover{
+	cursor: url('pictures/shrimp.png'), auto;
+}
+     .burst-8 {
+      background-image:url(pictures/ohyes.png);
+      width: 200px;
+      height: 200px;
+      position: relative;
+      text-align: center;
+      transform: rotate(20deg);
+    }
+    .burst-8:before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 200px;
+      width: 200px;
+       background-image:url(pictures/ohyes.png);
+      transform: rotate(135deg);
+    }
+
+.play{
+	animation: wheel 4s ease-in-out infinite;
+  background-image: url(pictures/ohyes.png), auto;
+
+}
+
+@keyframes wheel {
+	0% {
+    transform: rotate(135deg);
+		transform: rotateY(0deg);
+    transform-origin: 0%;
+    scale: 100%;
+    align-items: center;
+    translate: (200px,200px);
+	}
+  16% {
+		transform: rotate(135deg);
+    transform: rotateY(360deg);
+    transform: rotateX(360deg);
+    transform-origin: 200%;
+    scale: 200%;
+    align-items: center;
+      translate: (500px,500px);
+	}
+	33% {
+		transform: rotate(135deg);
+    transform: rotateY(720deg);
+    transform: rotateX(720deg);
+    transform-origin: -100%;
+    scale: 300%;
+    align-items: center;
+    translate: (750px,750px);
+	}
+  51% {
+		transform: rotate(135deg);
+    transform: rotateY(1080deg);
+    transform: rotateX(1080deg);
+    transform-origin: 250%;
+    scale: 400%;
+    align-items: center;
+    translate: (1000px,1000px);
+	}
+  67% {
+		transform: rotate(135deg);
+    transform: rotateY(720deg);
+    transform: rotateX(720deg);
+    transform-origin: -150%;
+    scale: 300%;
+    align-items: center;
+    translate: (750px,750px);
+	}
+  84% {
+		transform: rotate(135deg);
+    transform: rotateY(360deg);
+    transform: rotateX(360deg);
+    transform-origin: 200%;
+    scale: 200%;
+    align-items: center;
+    translate: (200px,200px);
+	}
+  100% {
+		transform: rotate(135deg);
+    transform: rotateY(0deg);
+    transform: rotateX(0deg);
+    transform-origin: -100%;
+    scale: 100%;
+    align-items: center;
+    translate: (0px,0px);
+	}
+
+}
