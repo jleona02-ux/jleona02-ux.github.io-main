@@ -1,0 +1,63 @@
+<!DOCTYPE html><!--document type declaration-->
+<html>
+    <head><!-- a container for metadata -->
+        <meta charset="utf-8"><!--charset: character encoding capable of encoding all characters on the web  -->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><!--for browser compatibility: choose rendering engine to view the page in an correct view (for old ver. IE)  -->
+        <title></title><!--declaring the title, or name, of the HTML document. displayed in the browser's title bar-->
+        <meta name="description" content=""><!--keywords/snippet for search engines-->
+        <meta name="viewport" content="width=device-width"><!--the browser will (probably) render the width of the page at the width of its own screen -->
+        <link rel="stylesheet" href="style.css">
+          <script src="script.js" defer></script>
+           <style>
+.grid-container {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  padding: 50px;
+  margin: 50px;
+  align-items:center;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    align-self: center;
+}
+    body {
+        background-image: url(background/room.png);
+        background-blend-mode:overlay;
+        background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+  
+    }
+   </style>
+    </head>
+    <body><!--all the contents of an HTML document goes here-->
+      <audio id="myAudio" src="audio/room.wav"></audio>
+      <audio id="HoverSound" src="audio/sound button.mp3" type="audio/ogg"></audio>
+        <div class="grid-container">
+        <div>
+        <img src="pictures/cup.png" alt="ceramic coffee cup" class="item"> </div>
+    <div>  <h1 class="cup-title">ceramic coffee cup</h1>
+      <h2 class="cup-heading">7:30 soul nourishment program...</h2>
+      <p class="cup-body">This cup specifically, is an <strong class="cup">ceramic-based insulated coffee mug</strong> that possess extra-ordinary capabilities to retain heat, perfect for storing my drinks during my long work sessions. 
+        Given to me by a close friend of mines before moving to the states, this mug has been with me through hell and back. Through the 2 (and almost half) years of my time in RISD, 
+        this <strong class="cup">coffee mug has stored so much energy for my well-being.</strong> From my home-brewed coffee up to the emergency ice-cold energy drink, 
+        this coffee mug has been the <strong class="cup">vessel for helping to keep on working through RISD’s workload</strong>, even when things may get overly hectic. </p>
+
+      <p class="cup-body">I really appreciate on how well-made this coffee mug really is, being crafted with care through it’s easy-to-hold grip, 
+        a lid that never shatters even if I constantly drop it, and a siliconed-based bottom to prevent the cup from slipping on my table, 
+        <strong class="cup">this cup truly enhances my quality of life!</strong> </p>
+
+      <p class="cup-body">Moreover, my friends actually engraved my <strong class="cup">instagram username tag </strong> to this mug, serving as a reminder on how we’re still in constant communication with each other, 
+        even if we are on different continents.</p>
+         <a href="card.html" class="previous-box-yellow"></a>
+    <a href="seat.html" class="next-box-yellow"></a>
+     <a href="index.html" class="home-box-yellow"></a>
+     <a class="audio-yellow" onclick="playAudio()" 
+        style="cursor:pointer;"></a>
+</div>
+    </body>
+
+</html>

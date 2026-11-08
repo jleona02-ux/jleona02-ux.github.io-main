@@ -1,0 +1,37 @@
+<!DOCTYPE html><!--document type declaration-->
+<html>
+    <head><!-- a container for metadata -->
+        <meta charset="utf-8"><!--charset: character encoding capable of encoding all characters on the web  -->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><!--for browser compatibility: choose rendering engine to view the page in an correct view (for old ver. IE)  -->
+        <title></title><!--declaring the title, or name, of the HTML document. displayed in the browser's title bar-->
+        <meta name="description" content=""><!--keywords/snippet for search engines-->
+        <meta name="viewport" content="width=device-width"><!--the browser will (probably) render the width of the page at the width of its own screen -->
+        <link rel="stylesheet" href="style.css">
+          <script src="script.js" defer></script>
+                  <style>
+    body {
+        background-image: url(background/wind\ chimes.png);
+        background-blend-mode:overlay;
+        background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+  
+    }
+   </style>
+    </head>
+    <body><!--all the contents of an HTML document goes here-->
+      <audio id="myAudio" src="audio/wind chimes.wav"></audio>
+            <audio id="HoverSound" src="audio/sound button.mp3" type="audio/ogg"></audio>
+      <h1 class="info-title">so, what's up with this?</h1>
+      <p class="info-body">When I was combing through a myriad of are.na based websites, I stumbled upon the realization that, <strong class="info">everything is about curation?</strong> 
+        Yes, the topics are very particular, we can talk about traffic signs, a random Japanese man’s toy collection, or even potholes, 
+        but they all serve a singular purpose, which is to <strong class="info">document and preserve the history that’s often tied with these objects. </strong>
+        But why do we want to <strong class="info">preserve these objects so much?</strong> Why do we put such an emphasis towards the act of preserving, 
+        even spending the majority of our free-time doing so? <strong class="info">Aren't our names, and even our beloved objects, will be forgotten within a generation or two? </strong></p>
+      <p class="info-body">That’s why this <strong class="info">*small*  website exists to explore the emphasis of preservation towards such mundane objects. </strong>
+        I am trying to put an emphasis on it through the exploration of how the random items that are in both my <strong class="info">childhood home</strong> and <strong class="info">college room</strong> hold so much meaning to my heart.</p>
+    </body>
+    <a href="index.html" class="home-box"></a>
+    <a class="audio-blue" onclick="playAudio()" 
+        style="cursor:pointer;"></a>
+</html>

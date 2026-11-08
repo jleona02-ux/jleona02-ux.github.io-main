@@ -1,0 +1,64 @@
+<!DOCTYPE html><!--document type declaration-->
+<html>
+    <head><!-- a container for metadata -->
+        <meta charset="utf-8"><!--charset: character encoding capable of encoding all characters on the web  -->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><!--for browser compatibility: choose rendering engine to view the page in an correct view (for old ver. IE)  -->
+        <title></title><!--declaring the title, or name, of the HTML document. displayed in the browser's title bar-->
+        <meta name="description" content=""><!--keywords/snippet for search engines-->
+        <meta name="viewport" content="width=device-width"><!--the browser will (probably) render the width of the page at the width of its own screen -->
+        <link rel="stylesheet" href="style.css">
+          <script src="script.js" defer></script>
+                  <style>
+     .grid-container {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  padding: 50px;
+  margin: 50px;
+  align-items:center;
+}
+img{
+    width: 100%;
+    height: 100%;
+    object-fit:contain;
+    align-self: center;
+}
+    body {
+        background-image: url(background/family\ dinner.png);
+        background-blend-mode:overlay;
+        background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+  
+    }
+   </style>
+    </head>
+    <body><!--all the contents of an HTML document goes here-->
+        <audio id="myAudio" src="audio/dinner.wav"></audio>
+      <audio id="HoverSound" src="audio/sound button.mp3" type="audio/ogg"></audio>
+        <div class="grid-container">
+            <div>
+        <img src="pictures/chair.png" alt="mamak plastic stool" class="item"> </div>
+        <div>
+      <h1 class="seat-title">red mamak plastic stool</h1>
+      <h2 class="seat-heading">perfect stool for doomscrolling...</h2>
+      <p class="seat-body">The Red Mamak Plastic Stool, is actually very self-explanatory, it is simply an <strong class="seat">easily reproducible and relatively inexpensive red chair</strong> that is used in almost every establishment that I can find back home.
+         Im not entirely sure on what brand do they use in particular, but almost all of these chairs are identical towards each other, having a glossy plastic finish,
+        and a <strong class="seat">vivid red colour that can be spotted from a mile away.</strong> </p>
+
+        <p class="seat-body">This particular type of red chair, has always been scattered throughout <strong class="seat">both my childhood home and the homes of many family members.</strong> An ubiquitous tool for gathering,
+         this chair has been used for <strong class="seat">countless family gatherings</strong>, often using these chairs for additional guests that are overflowing the living room.
+         I fondly recall spending many late nights sitting on these chairs, often switching the position and posture of my chair out of sheer boredom.
+         I also remember trying to <strong class="seat">kill time with anyone</strong> that is around my age, trying to talk about completely miscellanous topics,
+         trying to avoid the dread that is talking to an particular auntie or uncle that I wasn’t completely fond of. I also used to play so much <strong class="seat">mobile games with my distant relatives</strong> on these chairs,
+         often crossing my legs, putting my phone beneath the table, and having the time of my life there. </p>
+
+         <p class="seat-body">More importantly, I would also remember these family gatherings ending with us trying to <strong class="seat">stack as much of these chairs as possible into the corner of the living room</strong>,
+         or even to an relatively dusty closet, with the smell of cooked food and cigarettes permeating the space, a sign that the night is almost over.</p>
+    <a href="cup.html" class="previous-box-red"></a>
+    <a href="card.html" class="next-box-red"></a>
+     <a href="index.html" class="home-box-red"></a>
+     <a class="audio-red" onclick="playAudio()" 
+        style="cursor:pointer;"></a>
+         </div>
+    </body>
+</html>

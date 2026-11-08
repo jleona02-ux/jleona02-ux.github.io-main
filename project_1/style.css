@@ -1,0 +1,400 @@
+.home-title {
+font-size: 48px;
+font-family: Arial, Helvetica, sans-serif; 
+font-style: italic;
+color: white;
+}
+.home-body {
+font-size: 20px;
+font-family: Arial, Helvetica, sans-serif; 
+color: white;
+}
+.main-title {
+font-size: 48px;
+font-family: Arial, Helvetica, sans-serif; 
+font-style: italic;
+color: rgb(251, 255, 251);
+ filter: drop-shadow(0 0 4px rgb(251, 255, 251));
+}
+.card-title {
+font-size: 48px;
+font-family: Arial, Helvetica, sans-serif; 
+font-style: italic;
+color: rgb(198, 255, 196);
+ filter: drop-shadow(0 0 4px rgb(127, 254, 140));
+}
+.card-heading {
+    font-size: 30px;
+font-family: Arial, Helvetica, sans-serif; 
+font-style: normal;
+color: rgb(218, 253, 217);
+ filter: drop-shadow(0 0 2px rgb(181, 253, 188));
+}
+.card-body { 
+font-size: 20px;
+font-family: Arial, Helvetica, sans-serif; 
+color: rgb(234, 255, 233);
+}
+strong.card{
+    color:rgb(174, 255, 169);
+    font-style: italic;
+    filter: drop-shadow(0 0 1.5px rgb(127, 254, 140));
+}
+.cup-title { 
+font-size: 48px;
+font-family: Arial, Helvetica, sans-serif; 
+color: rgb(250, 255, 196);
+font-style: italic;
+ filter: drop-shadow(0 0 4px rgb(252, 254, 127));
+}
+.cup-heading {
+    font-size: 30px;
+font-family: Arial, Helvetica, sans-serif; 
+font-style: normal;
+color: rgb(245, 253, 217);
+ filter: drop-shadow(0 0 2px rgb(248, 253, 181));
+}
+.cup-body {
+font-size: 20px;
+font-family: Arial, Helvetica, sans-serif; 
+color: rgb(253, 255, 235);
+}
+strong.cup{
+    color:rgb(252, 255, 169);
+    font-style: italic;
+     filter: drop-shadow(0 0 1.5px rgb(252, 254, 127));
+}
+.seat-title {
+font-size: 48px;
+font-family: Arial, Helvetica, sans-serif; 
+color: rgb(255, 196, 196);
+ filter: drop-shadow(0 0 4px rgb(254, 127, 127));
+}
+.seat-heading {
+    font-size: 30px;
+font-family: Arial, Helvetica, sans-serif; 
+font-style: normal;
+color: rgb(253, 217, 217);
+ filter: drop-shadow(0 0 2px rgb(253, 181, 181));
+}
+.seat-body {
+font-size: 20px;
+font-family: Arial, Helvetica, sans-serif; 
+color: rgb(255, 238, 238);
+}
+strong.seat{
+    color:rgb(255, 162, 162);
+    font-style: italic;
+     filter: drop-shadow(0 0 1.5px rgb(254, 127, 127));
+}
+.info-title {
+font-size: 48px;
+font-family: Arial, Helvetica, sans-serif; 
+color: rgb(196, 215, 255);
+     filter: drop-shadow(0 0 4px rgb(127, 135, 254));
+}
+.info-body {
+font-size: 20px;
+font-family: Arial, Helvetica, sans-serif; 
+color: rgb(240, 244, 255);
+}
+strong.info{
+    color:rgb(186, 207, 255);
+    font-style: italic;
+         filter: drop-shadow(0 0 1.5px rgb(127, 135, 254));
+}
+.item {
+width: 60%;             
+  object-fit: cover; 
+}
+.cup-box { 
+    width: 100%;
+content: url(icons/cup.png);
+background-size: cover;
+background-position: center;
+transition: background-image 1s ease-in-out;
+}
+.cup-box:hover { 
+content: url(pictures/cup.png);
+rotate:15deg;
+animation: pulse 2s infinite ease-in-out;
+cursor: url(icons/hoveryellow.png);
+filter: drop-shadow(0 0 10px rgb(254, 254, 127));
+}
+.card-box { 
+    width: 100%;
+content: url(icons/penguin.png);
+background-size: cover;
+background-position: center;
+transition: background-image 0.3s ease-in-out;
+}
+.card-box:hover { 
+content: url(pictures/card.png);
+rotate: 345deg;
+animation: pulse 2s infinite ease-in-out;
+cursor: url(icons/hovergreen.png);
+filter: drop-shadow(0 0 10px rgb(138, 254, 127));
+}
+.seat-box { 
+    width: 100%;
+    content: url(icons/table.png);
+background-size: cover;
+background-position: center;
+transition: background-image 0.3s ease-in-out;
+}
+.seat-box:hover { 
+content: url(pictures/chair.png);
+rotate: 15deg;
+animation: pulse 2s infinite ease-in-out;
+cursor: url(icons/hoverred.png);
+filter: drop-shadow(0 0 10px rgb(254, 127, 127));
+}
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.125); /* Scales up to 115% */
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+.question-box { 
+        width: 10%;
+    content: url(icons/question\ markl.png);
+background-size: cover;
+background-position: center;
+transition: background-image 0.3s ease-in-out;
+}
+.question-box:hover {
+    content: url(icons/question\ markl.png);
+rotate: 5deg;
+animation: pulse 2s infinite ease-in-out;
+cursor: url(icons/hoverblue.png);
+filter: drop-shadow(0 0 5px rgba(240, 255, 255, 1));
+}
+.home-box { 
+        width: 10%;
+    content: url(icons/home\ icon\ gray.png);
+background-size: cover;
+background-position: center;
+transition: background-image 0.3s ease-in-out;
+}
+.home-box:hover {
+    content: url(icons/home\ icon\ gray.png);
+rotate: 5deg;
+animation: pulse 2s infinite ease-in-out;
+cursor: url(icons/hoverblue.png);
+filter: drop-shadow(0 0 5px rgb(201, 216, 255));
+}
+.previous-box-yellow { 
+        width: 10%;
+    content: url(icons/person\ walking\ yellow.png);
+background-size: cover;
+background-position: center;
+transition: background-image 0.3s ease-in-out;
+}
+.previous-box-yellow:hover {
+    content: url(icons/person\ walking\ yellow.png);
+rotate: 5deg;
+animation: pulse 2s infinite ease-in-out;
+cursor: url(icons/hoveryellow.png);
+    filter: drop-shadow(0 0 5px rgb(255, 243, 166));
+}
+.previous-box-green { 
+        width: 10%;
+    content: url(icons/person\ walking\ green.png);
+background-size: cover;
+background-position: center;
+transition: background-image 0.3s ease-in-out;
+}
+.previous-box-green:hover {
+    content: url(icons/person\ walking\ green.png);
+rotate: 5deg;
+animation: pulse 2s infinite ease-in-out;
+cursor: pointer;
+        filter: drop-shadow(0 0 5px rgb(179, 255, 166));
+}
+.previous-box-red { 
+        width: 10%;
+    content: url(icons/person\ walking\ red.png);
+background-size: cover;
+background-position: center;
+transition: bacskground-image 0.3s ease-in-out;
+}
+.previous-box-red:hover {
+    content: url(icons/person\ walking\ red.png);
+rotate: 5deg;
+animation: pulse 2s infinite ease-in-out;
+cursor: url(icons/home\ icon\ red.png);
+filter: drop-shadow(0 0 5px rgb(255, 166, 166));
+}
+.next-box-yellow {
+width: 10%;
+    content: url(icons/person\ yellow\ reverse.png);
+background-size: cover;
+background-position: center;
+transition: background-image 0.3s ease-in-out;
+}
+.next-box-yellow:hover { 
+    width:10%;
+ content: url(icons/person\ yellow\ reverse.png);
+rotate: 355deg;
+animation: pulse 2s infinite ease-in-out;
+cursor: url(icons/hoveryellow.png);
+    filter: drop-shadow(0 0 5px rgb(255, 243, 166));
+}
+.next-box-green {
+width: 10%;
+    content: url(icons/person\ green\ reverse.png);
+background-size: cover;
+background-position: center;
+transition: background-image 0.3s ease-in-out;
+}
+.next-box-green:hover { 
+ content: url(icons/person\ green\ reverse.png);
+rotate: 355deg;
+animation: pulse 2s infinite ease-in-out;
+cursor: pointer;
+        filter: drop-shadow(0 0 5px rgb(179, 255, 166));
+}
+.next-box-red {
+width: 10%;
+    content: url(icons/person\ red\ reverse.png);
+background-size: cover;
+background-position: center;
+transition: background-image 0.3s ease-in-out;
+}
+.next-box-red:hover { 
+    content: url(icons/person\ red\ reverse.png);
+rotate: 355deg;
+animation: pulse 2s infinite ease-in-out;
+cursor: url(icons/home\ icon\ red.png);
+filter: drop-shadow(0 0 5px rgb(255, 166, 166));
+}
+.home-box-green { 
+        width: 10%;
+    content: url(icons/home\ icon\ greeen.png);
+background-size: cover;
+background-position: center;
+transition: background-image 0.3s ease-in-out;
+}
+.home-box-green:hover {
+    content: url(icons/home\ icon\ greeen.png);
+rotate: 5deg;
+animation: pulse 2s infinite ease-in-out;
+cursor: pointer;
+        filter: drop-shadow(0 0 5px rgb(179, 255, 166));
+}
+.home-box-yellow { 
+        width: 10%;
+    content: url(icons/home\ icon\ yellow.png);
+background-size: cover;
+background-position: center;
+transition: background-image 0.3s ease-in-out;
+}
+.home-box-yellow:hover {
+    content: url(icons/home\ icon\ yellow.png);
+rotate: 5deg;
+animation: pulse 2s infinite ease-in-out;
+cursor: url(icons/hoveryellow.png);
+    filter: drop-shadow(0 0 5px rgb(255, 243, 166));
+}
+.home-box-red { 
+        width: 10%;
+    content: url(icons/home\ icon\ red.png);
+background-size: cover;
+background-position: center;
+transition: background-image 0.3s ease-in-out;
+}
+.home-box-red:hover {
+    content: url(icons/home\ icon\ red.png);
+rotate: 5deg;
+animation: pulse 2s infinite ease-in-out;
+cursor: url(icons/home\ icon\ red.png);
+filter: drop-shadow(0 0 5px rgb(255, 166, 166));
+}
+
+.audio-home {
+        width: 10%;
+    content: url(icons/audio\ off\ gray.png);
+background-size: cover;
+background-position: center;
+transition: background-image 0.3s ease-in-out;
+}
+.audio-home:hover {
+    content: url(icons/audio\ on\ gray.png);
+    rotate: 5deg;
+    animation: pulse 2s infinite ease-in-out;
+    filter: drop-shadow(0 0 5px rgba(240, 255, 255, 1));
+
+}
+.audio-question {
+        width: 10%;
+    content: url(icons/audio\ off\ blue.png);
+background-size: cover;
+background-position: center;
+transition: background-image 0.3s ease-in-out;
+}
+.audio-question:hover {
+    content: url(icons/audio\ on\ blue.png);
+    rotate: 5deg;
+    animation: pulse 2s infinite ease-in-out;
+
+}
+.audio-yellow {
+        width: 10%;
+    content: url(icons/audio\ off\ yellow.png);
+background-size: cover;
+background-position: center;
+transition: background-image 0.3s ease-in-out;
+}
+.audio-yellow:hover {
+    content: url(icons/audio\ on\ yellow.png);
+    rotate: 5deg;
+    animation: pulse 2s infinite ease-in-out;
+        filter: drop-shadow(0 0 5px rgb(255, 243, 166));
+
+}
+.audio-green {
+        width: 10%;
+    content: url(icons/audio\ off\ green.png);
+background-size: cover;
+background-position: center;
+transition: background-image 0.3s ease-in-out;
+}
+.audio-green:hover {
+    content: url(icons/audio\ on\ green.png);
+    rotate: 5deg;
+    animation: pulse 2s infinite ease-in-out;
+        filter: drop-shadow(0 0 5px rgb(179, 255, 166));
+}
+.audio-red {
+        width: 10%;
+    content: url(icons/audio\ off\ red.png);
+background-size: cover;
+background-position: center;
+transition: background-image 0.3s ease-in-out;
+}
+.audio-red:hover {
+    content: url(icons/audio\ on\ red.png);
+    rotate: 5deg;
+    animation: pulse 2s infinite ease-in-out;
+            filter: drop-shadow(0 0 5px rgb(255, 166, 166));
+
+}
+.audio-blue {
+        width: 10%;
+    content: url(icons/audio\ off\ blue.png);
+background-size: cover;
+background-position: center;
+transition: background-image 0.3s ease-in-out;
+}
+.audio-blue:hover {
+    content: url(icons/audio\ on\ blue.png);
+    rotate: 5deg;
+    animation: pulse 2s infinite ease-in-out;
+filter: drop-shadow(0 0 5px rgb(206, 201, 255));
+}
+
